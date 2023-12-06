@@ -4,13 +4,11 @@ body {
     color: #434455;
     font-style: normal;
     background-color: #FFFFFF;
-    width: 1440px;
-height: 3300px;
 }
-
+/* Header Section */
 .logo {
     color: #4D5AE5;
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -57,10 +55,7 @@ letter-spacing: 0.32px;
     letter-spacing: 0.32px;
 }
 /* Section 1 */
-.hero {
-    width: 1440px;
-height: 600px;
-flex-shrink: 0;
+.hero {;
 background: var(--NAVY-BLUE, #2E2F42);
 }
 .hero-list {
@@ -77,10 +72,7 @@ width: 496px;
 .hero-button {
     border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
-box-shadow: rgba(0, 0, 0, 0.15);
-display: inline-flex;
 padding: 16px 32px;
-align-items: flex-start;
 gap: 10px;
 color: var(--WHITE, #FFF);
 font-family: Roboto;
@@ -92,9 +84,7 @@ letter-spacing: 0.64px;
 }
 /* Section 2 */
 .vision {
-    width: 1440px;
-height: 732px;
-flex-shrink: 0;
+    background: #FFF;
 }
 .vision-list {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -114,7 +104,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.32px;
-width: 264px;
 }
 /* Section 3 */
 .team {
@@ -177,7 +166,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.2; 
-letter-spacing: 0.4px;
+letter-spacing: 0.02em;
 }
 .portfolio-text {
     color: #434455;
@@ -186,26 +175,21 @@ letter-spacing: 0.4px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5; 
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
-
+/* Footer */
 .down {
     background: var(--NAVY-BLUE, #2E2F42);
-    width: 1440px;
-height: 312px;
-flex-shrink: 0;
 }
 .logo-down {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.17; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    display: flex;
-    display: inline-flex;
 }
 .span-logo-down {
     color: #F4F4FD;
@@ -226,5 +210,4 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.32px;
-width: 264px;
 }
