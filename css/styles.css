@@ -58,6 +58,9 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+.contacts:hover .contacts:focus {
+    color: #404bbf
+}
 
 /* Section 1 */
 .hero {;
