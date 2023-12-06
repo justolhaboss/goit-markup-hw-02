@@ -88,14 +88,14 @@ letter-spacing: 0.64px;
 .vision {
     background: #FFF;
 }
-.vision-list {
+.vision-title {
     color: var(--NAVY-BLUE, #2E2F42);
 font-family: Roboto;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.2;
-letter-spacing: 0.4px;
+letter-spacing: 0.02em;
 }
 .vision-text {
     color: var(--SLATE, #434455);
@@ -104,7 +104,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.5; 
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
 }
 /* Section 3 */
 .team {
@@ -112,6 +112,7 @@ letter-spacing: 0.32px;
 }
 .team-header {
     color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
 font-family: Roboto;
 font-size: 36px;
 font-style: normal;
@@ -120,10 +121,13 @@ line-height: 1.11;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 }
+.team-list {
+    background: var(--WHITE, #FFF);
+}
 .team-icon {
     background: lightgray;
 }
-.team-list {
+.team-title {
     color: var(--NAVY-BLUE, #2E2F42);
 font-family: Roboto;
 font-size: 20px;
@@ -144,6 +148,7 @@ letter-spacing: 0.32px;
 /* Section 4 */
 .portfolio-main {
     color: #2E2F42;
+    text-align: center;
 font-family: Roboto;
 font-size: 36px;
 font-style: normal;
