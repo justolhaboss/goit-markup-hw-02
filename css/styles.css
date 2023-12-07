@@ -25,7 +25,6 @@ letter-spacing: 0.4px;
     line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
 }
 .span-logo {
     color: #2E2F42;
@@ -37,6 +36,12 @@ line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
+.logo .span-logo {
+    color: #404bbf;
+}
+.logo .span-logo {
+    color: #404bbf;
+}
 .header-logo-link {
     color: var(--NAVY-BLUE, #2E2F42);
 font-family: "Roboto", sans-serif;
@@ -45,6 +50,9 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+.contacts-name {
+    font-style: normal;
 }
 .contacts {
     color: var(--SLATE, #434455);
@@ -55,6 +63,7 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.0
 }
+
 .contacts .contacts-link:hover {
     color: #404bbf;
 }
@@ -78,6 +87,7 @@ letter-spacing: 1.12px;
 .hero-button {
 background: #4D5AE5;
 color: #FFF;
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
