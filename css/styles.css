@@ -51,17 +51,9 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-.header-logo-link-first {
-    color: var(--NAVY-BLUE, #2E2F42);
-font-family: "Roboto", sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
-.header-logo-link-first:hover,
-.header-logo-link-first:focus {
+
+.header-logo-link:hover,
+.header-logo-link:focus {
     color: #404bbf
 }
 .contacts-name {
