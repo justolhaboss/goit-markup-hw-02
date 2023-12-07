@@ -36,10 +36,10 @@ line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
-.logo .span-logo {
+.logo .span-logo:hover {
     color: #404bbf;
 }
-.logo .span-logo {
+.logo .span-logo:focus {
     color: #404bbf;
 }
 .header-logo-link {
@@ -54,14 +54,14 @@ letter-spacing: 0.02em;
 .contacts-name {
     font-style: normal;
 }
-.contacts {
-    color: var(--SLATE, #434455);
+.contacts-link {
+    color:#434455;
 font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.5;
-letter-spacing: 0.0
+letter-spacing: 0.02em;
 }
 
 .contacts .contacts-link:hover {
