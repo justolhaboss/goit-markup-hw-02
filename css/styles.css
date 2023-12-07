@@ -51,6 +51,10 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+.header-logo-link-first:hover,
+.header-logo-link-first:focus {
+    color: #404bbf
+}
 .contacts-name {
     font-style: normal;
 }
