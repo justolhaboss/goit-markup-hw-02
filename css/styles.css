@@ -6,8 +6,9 @@ body {
     background-color: #FFFFFF;
 }
 h3 {
-    color: var(--NAVY-BLUE, #2E2F42);
-font-family: Roboto;
+    color: #2E2F42;
+font-family: "Roboto", sans-serif;
+text-align: center;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
@@ -38,62 +39,64 @@ text-transform: uppercase;
 }
 .header-logo-link {
     color: var(--NAVY-BLUE, #2E2F42);
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-.header-logo-link:hover,
-.header-logo-link:focus {
-    color: #404bbf
-}
 .contacts {
     color: var(--SLATE, #434455);
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.5;
-letter-spacing: 0.02em;
+letter-spacing: 0.0
 }
-.contacts:hover .contacts:focus {
-    color: #404bbf
+.contacts .contacts-link:hover {
+    color: #404bbf;
 }
-
+.contacts .contacts-link:focus {
+    color: #404bbf ;
+}
 /* Section 1 */
-.hero {;
-background: var(--NAVY-BLUE, #2E2F42);
+.hero {
+  background: #2E2F42;
+  font-family: "Roboto", sans-seri;
 }
 .hero-list {
     color: var(--WHITE, #FFF);
-font-family: Roboto;
+    text-align: center;
 font-size: 56px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.07; 
 letter-spacing: 1.12px;
-width: 496px;
 }
 .hero-button {
-background: var(--IRIS, #4D5AE5);
-
-color: var(--WHITE, #FFF);
-font-family: Roboto;
+background: #4D5AE5;
+color: #FFF;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.64px;
 }
+.hero .hero-button:hover {
+    background-color: #404BBF
+}
+.hero .hero-button:focus {
+    background-color: #404BBF
+}
 /* Section 2 */
 .vision {
     background: #FFF;
 }
 .vision-title {
-    color: var(--NAVY-BLUE, #2E2F42);
-font-family: Roboto;
+    color: #2E2F42;
+font-family: "Roboto", sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
@@ -101,8 +104,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .vision-text {
-    color: var(--SLATE, #434455);
-font-family: Roboto;
+    color: #434455;
+    font-family: "Roboto", sans-seri;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -111,12 +114,12 @@ letter-spacing: 0.02em;
 }
 /* Section 3 */
 .team {
-    background: var(--CLOUD, #F4F4FD);
+    background: #F4F4FD;
 }
 .team-header {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     text-align: center;
-font-family: Roboto;
+font-family: "Roboto", sans-seri;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -125,14 +128,14 @@ letter-spacing: 0.72px;
 text-transform: capitalize;
 }
 .team-list {
-    background: var(--WHITE, #FFF);
+    background: #FFF;
 }
 .team-icon {
     background: lightgray;
 }
 .team-title {
-    color: var(--NAVY-BLUE, #2E2F42);
-font-family: Roboto;
+    color: #2E2F42;
+font-family: "Roboto", sans-seri;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
@@ -140,8 +143,8 @@ line-height: 1.2;
 letter-spacing: 0.4px;
 }
 .team-text {
-    color: var(--SLATE, #434455);
-font-family: Roboto;
+    color: #434455;
+font-family: "Roboto", sans-seri;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -152,7 +155,7 @@ letter-spacing: 0.32px;
 .portfolio-main {
     color: #2E2F42;
     text-align: center;
-font-family: Roboto;
+font-family: "Roboto", sans-seri;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -165,7 +168,7 @@ background: #FFF;
 }
 .portfolio-list {
     color: #2E2F42;
-font-family: Roboto;
+font-family: "Roboto", sans-seri;;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
@@ -174,7 +177,7 @@ letter-spacing: 0.02em;
 }
 .portfolio-text {
     color: #434455;
-    font-family: Roboto;
+    font-family: "Roboto", sans-seri;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -197,7 +200,7 @@ letter-spacing: 0.02em;
 }
 .span-logo-down {
     color: #F4F4FD;
-font-family: Raleway;
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -207,7 +210,7 @@ text-transform: uppercase;
 }
 .logo-down-text {
     color: #F4F4FD;
-font-family: Roboto;
+font-family: "Roboto", sans-seri;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
