@@ -15,6 +15,9 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.4px;
 }
+ul, li, a {
+    text-decoration: none;
+}
 /* Header Section */
 .logo {
     color: #4D5AE5;
@@ -216,13 +219,13 @@ letter-spacing: 0.02em;
 }
 .span-logo-down {
     color: #F4F4FD;
-font-family: "Raleway", sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.54px;
-text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 .logo-down-text {
     color: #F4F4FD;
