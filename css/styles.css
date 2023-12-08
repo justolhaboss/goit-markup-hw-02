@@ -15,7 +15,7 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.4px;
 }
-ul, li, a {
+ul, a {
     text-decoration: none;
 }
 /* Header Section */
