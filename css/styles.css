@@ -15,9 +15,13 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.4px;
 }
-ul, a {
+ul {
     text-decoration: none;
 }
+a {
+    list-style-type: none;
+}
+
 /* Header Section */
 .logo {
     color: #4D5AE5;
